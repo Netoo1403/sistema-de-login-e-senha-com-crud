@@ -43,61 +43,64 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register'])) {
 <head>
     <title>Registro</title>
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7; 
+    font-family: Arial, sans-serif;
+  }
 
-        .form-container {
-            background-color: #e6f7ff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            margin: 0 auto;
-        }
+ .form-container {
+    background-color: #fff;
+    padding: 30px; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); 
+    width: 300px;
+    margin: 0 auto;
+  }
 
-        .form-container form {
-            display: flex;
-            flex-direction: column;
-        }
+ .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
 
-        .form-container label {
-            margin-bottom: 5px;
-            color: #003366;
-        }
+ .form-container label {
+    margin-bottom: 10px; 
+    color: #333; 
+    font-weight: bold; 
+  }
 
-        .form-container input,
-        .form-container select {
-            margin-bottom: 15px;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            background-color: #f0f8ff;
-            color: #333;
-        }
+ .form-container input,
+ .form-container select {
+    margin-bottom: 20px;
+    padding: 15px; 
+    border-radius: 10px;
+    border: 1px solid #ddd; 
+    background-color: #fff; 
+    color: #333;
+  }
 
-        .form-container input[type="submit"] {
-            background-color: #ff7b00;
-            color: #fff;
-            cursor: pointer;
-            border: none;
-        }
+ .form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px; 
+  }
 
-        .form-container input[type="submit"]:hover {
-            background-color: #b35600;
-        }
+ .form-container input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
 
-        .form-container a {
-            text-decoration: none;
-            color: #ff7b00;
-        }
-    </style>
+ .form-container a {
+    text-decoration: none;
+    color: #4CAF50;
+  }
+</style>
 </head>
 
 <body>
