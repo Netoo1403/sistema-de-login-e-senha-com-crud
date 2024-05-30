@@ -8,7 +8,10 @@ $_SESSION = array();
 // Destroi a sessão
 session_destroy();
 
+// Exibe uma mensagem de deslogado em forma de popup
+echo "<script>alert('Você foi deslogado com sucesso!');</script>";
+
 // Redireciona para a página de login
-header("location: login.php");
+echo "<script>window.location.href='login.php';</script>";
 exit;
 ?>
