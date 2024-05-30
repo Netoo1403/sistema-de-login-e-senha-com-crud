@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
  .form-container a {
     text-decoration: none;
-    color: #337ab7; 
+    color: #4CAF50; 
   }
 </style>
 </head>
