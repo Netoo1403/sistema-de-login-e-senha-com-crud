@@ -4,67 +4,63 @@
 <head>
     <title>Dashboard</title>
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5; 
+    font-family: Arial, sans-serif;
+  }
 
-        .form-container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            margin: 0 auto;
-            /* Centraliza a div horizontalmente */
-        }
+ .form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+  }
 
-        .form-container form {
-            display: flex;
-            flex-direction: column;
-        }
+ .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
 
-        .form-container label {
-            margin-bottom: 5px;
-            color: #003366;
-            /* Cor do texto dos labels */
-        }
+ .form-container label {
+    margin-bottom: 10px;
+    color: #444; 
+    font-weight: bold; 
+  }
 
-        .form-container input,
-        .form-container select {
-            margin-bottom: 15px;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            background-color: #f0f8ff;
-            /* Cor de fundo dos inputs */
-            color: #333;
-            /* Cor do texto dos inputs */
-        }
+ .form-container input,
+ .form-container select {
+    margin-bottom: 20px; 
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd; 
+    background-color: #fff; 
+    color: #333; 
+  }
 
-        .form-container input[type="submit"] {
-            background-color: #ff7b00;
-            /* Cor do botão "Criar" */
-            color: #fff;
-            /* Cor do texto do botão "Criar" */
-            cursor: pointer;
-        }
+ .form-container input[type="submit"] {
+    background-color: #4CAF50; 
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px; 
+  }
 
-        .form-container input[type="submit"]:hover {
-            background-color: #ff5600;
-            /* Cor do botão "Criar" ao passar o mouse */
-        }
+ .form-container input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
 
-        .form-container #formEdit {
-            display: none;
-            /* Esconde o formulário de edição inicialmente */
-        }
-    </style>
+ .form-container #formEdit {
+    display: none; /* Esconde o formulário de edição inicialmente */
+  }
+</style>
 </head>
 
 <body>
